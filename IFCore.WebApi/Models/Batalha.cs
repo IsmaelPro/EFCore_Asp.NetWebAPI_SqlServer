@@ -12,5 +12,7 @@ namespace IFCore.WebApi.Models
         public string Descricao { get; set; }
         public DateTime DtInicio { get; set; }
         public DateTime dtFim { get; set; }
+        public List<HeroiBatalha> HeroiBatalhas { get; set; }
+
     }
 }
